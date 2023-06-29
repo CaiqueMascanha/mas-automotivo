@@ -24,12 +24,15 @@
 }
 
 .navegacao a {
+  height: 100%;
+  padding: 2.1em 1em;
   text-decoration: none;
   color: var(--preto);
+  z-index: 999;
 }
 
 .navegacao a:hover {
-  border-bottom: 1px solid var(--preto);
+  border-bottom: 3px solid var(--laranja);
 }
 
 .container__icons {
